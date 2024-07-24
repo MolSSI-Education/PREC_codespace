@@ -1,5 +1,5 @@
 {
-	"name": "SETCA 2024 MolSSI Tutorial: MDI",
+	"name": "OOP and Docker Tutorial Codespace",
 	"build": { "dockerfile": "Dockerfile",
 	"context": ".." 
  },
