@@ -1,0 +1,13 @@
+name: myenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - matplotlib
+  - numpy<2.0
+  - jupyterlab
+  - nglview
+  - mdanalysis
+  - mdtraj

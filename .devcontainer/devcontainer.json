@@ -1,0 +1,13 @@
+{
+	"name": "SETCA 2024 MolSSI Tutorial: MDI",
+	"build": { "dockerfile": "Dockerfile",
+	"context": ".." 
+ },
+	"features": {
+	  "ghcr.io/devcontainers/features/docker-in-docker:2": {
+		"dockerDashComposeVersion": "v2"
+	  }
+	},
+	"postStartCommand": "bash init.sh"
+  }
+
